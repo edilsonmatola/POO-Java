@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class multiplos{
+	public static void main(String args[]){
+		int soma,contador;
+		soma=0;contador=5;
+		while(contador<=1000){
+			System.out.print("\n multiplos"+contador);
+			soma=soma+contador;
+			contador=contador+5;
+		}System.out.print("\nSoma:"+soma);
+	}
+}

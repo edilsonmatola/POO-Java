@@ -1,0 +1,83 @@
+package seguroAutomoveis;
+import java.util.Scanner;
+public class seguroAutomoveis {
+	public static void main(String []args){
+		double plano, custo, taxa, tx;
+		int idade, plan, alcool, oculos, doenca ;
+		String nome;
+		
+		
+		Scanner ler= new Scanner(System.in);
+		
+		System.out.println("Nome: ");
+		nome=ler.next();
+		
+		System.out.println("Para o seguro de Ampla cobertura digite 1\n Para o seguro de danos a terceiros digite 2");
+		plan=ler.nextInt();
+		
+		if(plan==1){
+			System.out.println("Consome Alcool? Digite 1 para sim\n Digite 2 para nao");
+			alcool=ler.nextInt();
+			if(alcool==1){
+				tx=4200*0.1;
+				taxa=tx+4200;
+			}else{
+				taxa=4200;
+			}
+			
+			System.out.println("Usa oculos de vista? Digite 1 para sim\n Digite 2 para nao");
+			oculos=ler.nextInt();
+			if(oculos==1){
+				tx=4200*0.05;
+				taxa=4200+tx;
+			}else{
+				taxa=taxa;
+			}
+			
+			System.out.println("Sofre alguma doença? Digite 1 para sim\n Digite 2 para nao");
+			doenca=ler.nextInt();
+			if(doenca==1){
+				tx=4200*0.05;
+				taxa=4200+tx;
+			}else{
+				taxa=taxa;
+			}
+			
+			System.out.println(taxa);
+			idade=ler.nextInt();
+			
+		}else{
+			System.out.println("Consome Alcool? Digite 1 para sim\n Digite 2 para nao");
+			alcool=ler.nextInt();
+			if(alcool==1){
+				tx=1150*0.1;
+				taxa=tx+1150;
+			}else{
+				taxa=1150;
+			}
+			
+			System.out.println("Usa oculos de vista? Digite 1 para sim\n Digite 2 para nao");
+			oculos=ler.nextInt();
+			if(oculos==1){
+				tx=1150*0.05;
+				taxa=1150+tx;
+			}else{
+				taxa=taxa;
+			}
+			
+			System.out.println("Sofre alguma doença? Digite 1 para sim\n Digite 2 para nao");
+			doenca=ler.nextInt();
+			if(doenca==1){
+				tx=1150*0.05;
+				taxa=1150+tx;
+			}else{
+				taxa=taxa;
+				}
+			
+			System.out.println(taxa);
+			idade=ler.nextInt();
+		
+		
+	}
+}
+}

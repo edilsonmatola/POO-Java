@@ -1,2 +1,2 @@
-# POO-Java
-This repository contains some (old but still functional) programs made by me and my group of colleagues at the university. Feel free to use them for you own project as well.
+# Programação Orientada a Objectos em Java:
+Programas, exercicios e algoritmos resolvidos, desenvolvidos para as disciplinas de Algorítmo e Lógica de Programação, Programação 1, Programação 2 e Programação 3 do curso de Engenharia Informática e Telecomunicações, Engenharia e Ciência dos Computadores, Engenharia de Computação, etc.

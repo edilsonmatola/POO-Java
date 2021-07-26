@@ -1,0 +1,13 @@
+import java.util.*;
+public class Soma{
+	public static void main(String args[]){
+		int num1,num2,soma;
+		Scanner ler=new Scanner(System.in);
+		System.out.print("Numero:");
+		num1=ler.nextInt();
+		System.out.print("Numero:");
+		num2=ler.nextInt();
+		soma=num1+num2;
+		System.out.println("Soma:"+soma);
+	}
+}

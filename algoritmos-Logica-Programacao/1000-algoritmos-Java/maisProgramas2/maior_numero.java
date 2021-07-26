@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class maior_numero{
+	public static void main(String[]args){
+
+		Scanner ler = new Scanner(System.in);
+
+		byte pri_numero,seg_numero,maior=0;
+
+		System.out.println("Digite o Primeiro numero");
+		pri_numero = ler.nextByte();
+
+		System.out.println("Digite o Segundo numero");
+		seg_numero = ler.nextByte();
+
+		if(pri_numero>seg_numero){
+			maior = pri_numero;
+		}else {
+			if (pri_numero<seg_numero) {
+				maior = pri_numero;
+			}
+		}
+
+		System.out.println("O maior numero entre os dois:"+maior);
+	}
+}
