@@ -1,92 +1,95 @@
-# Contributing
+# 💥 How to Contribute
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+- Take a look at the existing [Issues](https://github.com/edilsonmatola/POO-Java/issues) or [create a new issue](https://github.com/edilsonmatola/POO-Java/issues/new/choose)!
+- [Fork the Repo](https://github.com/edilsonmatola/POO-Java/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
+- Create a **[Pull Request](https://github.com/edilsonmatola/POO-Java/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
+- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+## ⭐ HOW TO MAKE A PULL REQUEST:
 
-## Pull Request Process
+**1.** Start by making a fork the [**Pyhton_Master**](https://github.com/edilsonmatola/POO-Java) repository. Click on the <a href="https://github.com/edilsonmatola/POO-Java/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+**2.** Clone your new fork of the repository:
 
-## Code of Conduct
+```bash
+git clone https://github.com/<your-github-username>/POO-Java
+```
 
-### Our Pledge
+**3.** Navigate to the new project directory:
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+```bash
+cd POO-Java
+```
 
-### Our Standards
+**4.** Set upstream command:
 
-Examples of behavior that contributes to creating a positive environment
-include:
+```bash
+git remote add upstream https://github.com/edilsonmatola/POO-Java.git
+```
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+**5.** Create a new branch:
 
-Examples of unacceptable behavior by participants include:
+```bash
+git checkout -b YourBranchName
+```
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+**6.** Sync your fork or your local repository with the origin repository:
 
-### Our Responsibilities
+- In your forked repository, click on "Fetch upstream"
+- Click "Fetch and merge"
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+### Alternatively, Git CLI way to Sync forked repository with origin repository:
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+```bash
+git fetch upstream
+```
 
-### Scope
+```bash
+git merge upstream/main
+```
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
 
-### Enforcement
+**7.** Make your changes to the source code.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at edilsonmatola13@gmail.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+**8.** Stage your changes and commit:
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
 
-### Attribution
+```bash
+git add <file-name>
+```
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
+```bash
+git commit -m "<your_commit_message>"
+```
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+**9.** Push your local commits to the remote repository:
+
+```bash
+git push origin YourBranchName
+```
+
+**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+
+**11.** **Congratulations!** You've made your first contribution to [**Python_Master**](https://github.com/edilsonmatola/POO-Java/graphs/contributors)! 🙌🏼
+
+## Style Guide for Git Commit Messages :memo:
+
+**How you can add more value to your contribution logs:**
+
+- Use the present tense. (Example: "Add feature" instead of "Added feature")
+- Use the imperative mood. (Example: "Move item to...", instead of "Moves item to...")
+- Limit the first line (also called the Subject Line) to _50 characters or less_.
+- Capitalize the Subject Line.
+- Separate subject from body with a blank line.
+- Do not end the subject line with a period.
+- Wrap the body at _72 characters_.
+- Use the body to explain the _what_, _why_, _vs_, and _how_.
+- Reference [Issues](https://github.com/edilsonmatola/POO-Java/issues) and [Pull Requests](https://github.com/edilsonmatola/POO-Java/pulls) liberally after the first line.
+
+## 💥 Issues
+
+In order to discuss changes, you are welcome to [open an issue](https://github.com/edilsonmatola/POO-Java/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+
+## All the best! 🥇
