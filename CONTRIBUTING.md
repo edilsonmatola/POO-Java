@@ -7,7 +7,7 @@
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a fork the [**Pyhton_Master**](https://github.com/edilsonmatola/POO-Java) repository. Click on the <a href="https://github.com/edilsonmatola/POO-Java/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by making a fork the [**POO-Java**](https://github.com/edilsonmatola/POO-Java) repository. Click on the <a href="https://github.com/edilsonmatola/POO-Java/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
 **2.** Clone your new fork of the repository:
 
