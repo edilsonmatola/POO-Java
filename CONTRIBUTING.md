@@ -72,7 +72,7 @@ git push origin YourBranchName
 
 **10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**11.** **Congratulations!** You've made your first contribution to [**Python_Master**](https://github.com/edilsonmatola/POO-Java/graphs/contributors)! 🙌🏼
+**11.** **Congratulations!** You've made your first contribution to [**POO-Java**](https://github.com/edilsonmatola/POO-Java/graphs/contributors)! 🙌🏼
 
 ## Style Guide for Git Commit Messages :memo:
 
